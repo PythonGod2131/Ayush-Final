@@ -1,43 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry of AYUSH Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://example.com/logo.png" alt="Ministry of AYUSH Logo" class="logo">
+            <div class="login-buttons">
+                <button>Business Login</button>
+                <button>Admin Login</button>
+            </div>
+        </div>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <div class="form-container">
+            <h1>Ministry of AYUSH</h1>
+            <p>Register your AYUSH startup using your E-mail ID</p>
+            <form id="registration-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-    <meta name="description" content="Ayush Startup Registration Portal - Helping entrepreneurs register their startups" />
-    <meta name="keywords" content="Ayush, Startup, Registration, Entrepreneur, Business, Portal" />
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter a unique password" required>
 
-    <meta property="og:title" content="Ayush Startup Registration Portal" />
-    <meta property="og:description" content="Helping entrepreneurs register their startups easily and efficiently." />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://example.com" />
-    <meta property="og:image" content="https://example.com/og-image.jpg" />
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I agree to the <a href="#">terms & policy</a>
+                </label>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Ayush Startup Registration Portal" />
-    <meta name="twitter:description" content="Helping entrepreneurs register their startups easily." />
-    <meta name="twitter:image" content="https://example.com/twitter-image.jpg" />
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
 
-    <title>Ayush Startup Registration Portal</title>
+            <div class="alt-login">
+                <p>Or</p>
+                <button class="google-login">Sign in with Google</button>
+                <button class="apple-login">Sign in with Apple</button>
+                <p>Have an account? <a href="#">Sign In</a></p>
+            </div>
+        </div>
 
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-    
-    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-
-    <div id="root"></div>
-
-
-    <script src="%PUBLIC_URL%/bundle.js" defer></script>
-  </body>
+        <div class="image-container">
+            <img src="https://example.com/plants.jpg" alt="Green Leaves" class="background-image">
+        </div>
+    </div>
+</body>
 </html>
