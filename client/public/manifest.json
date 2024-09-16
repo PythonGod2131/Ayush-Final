@@ -1,0 +1,73 @@
+{
+  "short_name": "Startup Portal",
+  "name": "Ayush Startup Registration Portal",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "description": "Register your startup and upload documents on the Ayush Startup Portal. Join the feedback system and contribute to the startup community.",
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://example.com/ayush-startup-portal"
+    }
+  ],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "/screenshots/screenshot1.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    },
+    {
+      "src": "/screenshots/screenshot2.png",
+      "sizes": "1080x1920",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Submit Feedback",
+      "short_name": "Feedback",
+      "description": "Quickly submit feedback",
+      "url": "/feedback",
+      "icons": [{ "src": "/icons/shortcut-feedback.png", "sizes": "192x192", "type": "image/png" }]
+    },
+    {
+      "name": "Upload Documents",
+      "short_name": "Upload",
+      "description": "Upload documents easily",
+      "url": "/upload",
+      "icons": [{ "src": "/icons/shortcut-upload.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
