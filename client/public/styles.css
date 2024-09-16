@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    width: 80px;
+}
+
+.login-buttons button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #eaeaea;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.form-container {
+    padding: 30px;
+    width: 50%;
+    background-color: white;
+}
+
+h1 {
+    font-size: 26px;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.submit-btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+.alt-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.alt-login p {
+    margin: 10px 0;
+}
+
+.google-login,
+.apple-login {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.apple-login {
+    background-color: #000;
+    color: white;
+}
+
+.background-image {
+    width: 50%;
+    object-fit: cover;
+}
