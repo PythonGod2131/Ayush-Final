@@ -14,8 +14,8 @@ Installation
 1. Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/ayush-registration-app.git
-cd ayush-registration-app
+git clone https://github.com/PythonGod2131/ayush-final.git
+cd ayush-final-app
 2. Install the dependencies:
 bash
 Copy code
